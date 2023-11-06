@@ -1,0 +1,21 @@
+const g1= new Image();
+g1.src = "assets/guaton1.png";
+const g2= new Image();
+g2.src = "assets/guaton2.png";
+const g3= new Image();
+g3.src = "assets/guaton3.png";
+const g4= new Image();
+g4.src = "assets/guaton4.png";
+const tonto1= new Image();
+tonto1.src = "assets/tonto1.png";
+const tonto2= new Image();
+tonto2.src = "assets/tonto2.png";
+const tonto3= new Image();
+tonto3.src = "assets/tonto3.png";
+const imagenesGuaton = [g1, g2, g3, g4];
+const imagenesTonto = [tonto1, tonto2, tonto3];
+const guaton= new Hermano(imagenesGuaton, 300,340);
+const tonto= new Hermano(imagenesTonto, 200,240);
+[guaton, tonto].forEach((hermano, i) => {
+    hermano.alternateFigures();
+});
