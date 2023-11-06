@@ -24,11 +24,11 @@
         figura2.src = './figura2.png';
         [figura1, figura2].forEach((figura, i) => {
             figura.style.position = 'absolute';
-            figura.style.width = '100px';
-            figura.style.height = '100px';
+            figura.style.width = '160px';
+            figura.style.height = '160px';
             figura.style.userSelect = 'none';
-            figura.style.top = '80px';
-            figura.style.left = '80px';
+            figura.style.top = '180px';
+            figura.style.left = '180px';
             container.appendChild(figura);
             figura.style.display = 'none'; // Ocultar ambas figuras al principio
         });
@@ -55,6 +55,7 @@
 
         alternateFigures(); // Inicia la alternancia perpetua
     </script>
+    <script src="./wt.js"></script>
 </body>
 </html>
 
